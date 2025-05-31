@@ -101,7 +101,7 @@ function Collection(props) {
     setTimeout(() => {
       setSearchOption({ type: SEARCH_KEY.all, keyword: "" });
     }, 3000);
-  };
+  };``
 
   const operations = <CreatePostButton onShowPost={showPost} />;
 
